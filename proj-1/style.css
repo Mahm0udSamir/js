@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.form{
+    display: inline-block;
+   
+    background: rgba(204, 204, 204, 0.78);
+    height: 100%;
+    width: 25%;
+    margin-right: 0
+    
+    
+}
+.form div {
+    font-weight: bold;
+    margin: 10px;
+    padding: 10px;
+    
+    
+}
+
+.form div input{
+    border-radius: 9px;
+    padding: 10px;
+    margin: 5px;
+    margin-left: 0;
+    width: 277px;
+    
+}
+button{
+    border-radius: 18px;
+    width: 277px;
+    padding: 10px;
+    font-weight: bold;
+    margin: 15px;
+    color: #FFF;
+    background-color: rgba(6, 43, 212, 0.75);
+    border: 0;
+    
+}
+button:hover{
+    background-color: #025aa5;
+    cursor: pointer
+}
+/*.info{
+    float: right;
+    margin: 10px;
+    width:25.3333%;
+    padding: 22px;
+    border: 1px solid #CCC;
+    margin-right: 17px;
+    padding-top: 45px
+}
+.info h2{
+    margin-top: -15px;
+    margin-bottom: 11px;
+    color: #FFF
+}
+.info h3{
+    color: #FFF
+}*/
+.parent{
+    float: right;
+    width: 75%
+
+}
+/*.info span{
+    color: red;
+    float: right;
+    margin:-12px;
+    margin-top: -38px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 18px
+}*/
+table{
+    width:100%;
+    padding: 10px;
+    border:0
+}
+table .head{
+    text-align: center;
+    border-bottom: 2px solid #CCC
+}
+table tr{
+    border: 0
+}
+table tr td{
+    padding: 5px
+}
+.head{
+    font-weight: bold;
+    
+}
+.edit{
+    width: 80px;
+    border-radius: 0;
+    background: rgba(0, 128, 0, 0.7);
+}
+.edit:hover{
+    background-color:  green
+}
